@@ -26,7 +26,7 @@ trustme.onclick = () => {
 	trustme.innerText = "trust me";
 	MODE = "count";
 	start.style.display = "none";
-  startCount(count,2);
+  startCount(count,10);
   setTimeout(()=>{
     MODE="play";
     makeText("YOG")
