@@ -7,6 +7,7 @@ const start = document.querySelector<HTMLDivElement>("#start")!;
 const trustme = document.querySelector<HTMLDivElement>("#trustme")!;
 const count = document.querySelector<HTMLDivElement>("#count")!;
 const play = document.querySelector<HTMLDivElement>("#play")!;
+const audio = document.querySelector<HTMLAudioElement>("#audio")!;
 const start_colours = ["#383838", "#190936"];
 const bg_intervel = setInterval(() => {
 	start.style.backgroundColor =
@@ -22,13 +23,26 @@ setInterval(() => {
   }
 }, 100);
 trustme.onclick = () => {
-	clearInterval(bg_intervel);
+  clearInterval(bg_intervel);
 	trustme.innerText = "trust me";
 	MODE = "count";
 	start.style.display = "none";
-  startCount(count,10);
+  startCount(count,16);
   setTimeout(()=>{
     MODE="play";
     makeText("YOG")
-  },2000)
+  },16000)
+  audio.play();
 };
+document.onclick = () => {
+  if (MODE=="count"||MODE=="play"){
+    if (MODE=="play"&&audio.currentTime<=16){
+      audio.currentTime=16
+    }
+    if (audio.paused){
+      audio.play();
+    }else if (MODE!="count"){
+      audio.pause();
+    }
+  }
+}
