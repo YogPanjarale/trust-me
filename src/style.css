@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+#start{
+  background-color: #190936;
+}
+#trustme{
+  font-family: 'Irish Grover', cursive;
+  font-size: large;
+  /* color: hsl(192, 100%, 50%); */
+  background-color: #DBA24F;
+  color:#383838 #190936;
+  color:hsl(276, 100%, 90%);
+}
+#trustme:hover{
+  color:hsl(276, 100%, 50%);
+}
+
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.text{
+  font-family: 'Balsamiq Sans', cursive;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+body .text>div {
+  display: inline-block;
+  position: relative;
+  font-size: 32vmin;
+  color: transparent;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-animation: float 4s infinite;
+  animation: float 4s infinite;
+}
+body .text>div:nth-child(1) {
+  -webkit-animation-delay: -1.5s;
+  animation-delay: -1.5s;
+}
+
+body .text>div:nth-child(2) {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+
+body .text>div:nth-child(3) {
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+
+body .text>div:nth-child(4) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+body .text>div>div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  text-shadow: 0 0 1px white;
+}
+
+body .text>div>div:not(:nth-child(n+3)),
+body .text>div>div:not(:nth-last-child(n+3)) {
+  color: #da417cea;
+  text-shadow: 0 0 1px #da417ca2;
+}
+
+body .text>div>div:nth-child(1) {
+  -webkit-transform: translateZ(-3.84vmin);
+  transform: translateZ(-3.84vmin);
+}
+
+body .text>div>div:nth-child(2) {
+  -webkit-transform: translateZ(-2.88vmin);
+  transform: translateZ(-2.88vmin);
+}
+
+body .text>div>div:nth-child(3) {
+  -webkit-transform: translateZ(-1.92vmin);
+  transform: translateZ(-1.92vmin);
+}
+
+body .text>div>div:nth-child(4) {
+  -webkit-transform: translateZ(-0.96vmin);
+  transform: translateZ(-0.96vmin);
+}
+
+body .text>div>div:nth-child(5) {
+  -webkit-transform: translateZ(0vmin);
+  transform: translateZ(0vmin);
+}
+
+body .text>div>div:nth-child(6) {
+  -webkit-transform: translateZ(0.96vmin);
+  transform: translateZ(0.96vmin);
+}
+
+body .text>div>div:nth-child(7) {
+  -webkit-transform: translateZ(1.92vmin);
+  transform: translateZ(1.92vmin);
+}
+
+body .text>div>div:nth-child(8) {
+  -webkit-transform: translateZ(2.88vmin);
+  transform: translateZ(2.88vmin);
+}
+
+body .text>div>div:nth-child(9) {
+  -webkit-transform: translateZ(3.84vmin);
+  transform: translateZ(3.84vmin);
+}
+
+body .text>div>div:nth-child(10) {
+  -webkit-transform: translateZ(4.8vmin);
+  transform: translateZ(4.8vmin);
+}

@@ -1,0 +1,39 @@
+Arguments: 
+  D:\Enviroments\Node JS\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add tailwind
+
+PATH: 
+  D:\Enviroments\Python\Scripts\;D:\Enviroments\Python\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-14.0.2\bin;D:\Enviroments\MinGW\bin\;D:\Enviroments\Android\SDK;D:\Enviroments\customCommands;D:\Enviroments\Git\cmd;D:\Enviroments\Microsoft VS Code Insiders\bin;D:\Enviroments\ApkTool;D:\Enviroments\Go\bin;C:\Program Files\PuTTY\;C:\Program Files\mosquitto;D:\Enviroments\SubVersion\bin;D:\Enviroments\Cmake\bin;C:\tools\lxrunoffline;D:\Enviroments\Postgressql\13\bin;D:\Enviroments\Redis\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\Enviroments\GraphQL\dgraph-windows-amd64;D:\Enviroments\PostGres\13\lib;D:\Enviroments\PostGres\13\bin;D:\Enviroments\make-3.81-bin\bin;D:\Enviroments\Gpg4win\..\GnuPG\bin;D:\Enviroments\GnuPG\bin;D:\Enviroments\Node JS\;D:\Enviroments\Python\Scripts;C:\Users\Admin\.cargo\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;D:\Enviroments\flutter\bin;C:\Users\Admin\adb;C:\Users\Admin\go\bin;C:\Program Files\Java\jdk-14.0.2\bin\;C:\Users\Admin\AppData\Local\atom\bin;C:\Users\Admin\.dotnet\tools;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;D:\Enviroments\heroku\bin;C:\Users\Admin\.deno\bin;C:\Program Files (x86)\GitHub CLI\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\GitHubDesktop\bin;C:\Users\Admin\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.8.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "nice-website",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc && vite build",
+      "serve": "vite preview"
+    },
+    "devDependencies": {
+      "typescript": "^4.3.2",
+      "vite": "^2.6.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
