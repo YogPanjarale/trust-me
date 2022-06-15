@@ -27,7 +27,7 @@ trustme.onclick = () => {
 	trustme.innerText = "trust me";
 	MODE = "count";
 	start.style.display = "none";
-  startCount(count,16);
+  startCount(count,11);
   setTimeout(()=>{
     MODE="play";
     makeText("YOG")
@@ -36,8 +36,8 @@ trustme.onclick = () => {
 };
 document.onclick = () => {
   if (MODE=="count"||MODE=="play"){
-    if (MODE=="play"&&audio.currentTime<=16){
-      audio.currentTime=16
+    if (MODE=="play"&&audio.currentTime<=11){
+      audio.currentTime=11
     }
     if (audio.paused){
       audio.play();
